@@ -35,10 +35,10 @@ def update_counting_hash(hash, key)
   
     if hash[key]
       hash[key] += 1
-      key => value
+      :key => value
           else
       hash[key] = 1
-      key => value
+      :key => value
     end
     
 end
